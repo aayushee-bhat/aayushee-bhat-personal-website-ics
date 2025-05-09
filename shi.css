@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "makes you stronger";
+    src: url("KGMakesYouStronger.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "pangolin";
+    src: url("Pangolin-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #FDFBD4;
+    color: #06402B;
+}
+
+
+h1{
+    font-family: "makes you stronger";
+}
+
+p{
+    font-family: "pangolin";
+}
+
+.headerstuff {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+    padding: 50px; /* optional: adds spacing inside the container */
+    flex-wrap: wrap;
+  }
+
+
+.hello{
+    padding: 0;
+    text-align: right;
+    width: auto;
+    max-width: 300px;
+    margin: 0; /* top, right, bottom, left */
+}
+
+.aboutme{
+    width: 33.33%;           
+    margin: 0 auto;          
+    text-align: right;
+    padding-top: 0;
+    padding-right: 440px;
+}
+.aboutme p{
+    font-family: "pangolin";
+    }
+.aboutme h2{
+    font-family: "makes you stronger";
+}
+.aboutme h3{
+    font-family: "makes you stronger";
+}
+
+.personal{
+    font-family: "pangolin";
+    padding: 0;
+    text-align: left;
+    width: auto;
+    max-width: 300px;
+    margin: 0; /* top, right, bottom, left */
+}
+
+.personal h3{
+    font-family: "makes you stronger";
+}
