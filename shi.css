@@ -1,75 +1,117 @@
-@font-face {
-    font-family: "makes you stronger";
-    src: url("KGMakesYouStronger.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-  }
-
-@font-face {
-    font-family: "pangolin";
-    src: url("Pangolin-Regular.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-body{
-    background-color: #FDFBD4;
-    color: #06402B;
-}
-
-
-h1{
-    font-family: "makes you stronger";
-}
-
-p{
-    font-family: "pangolin";
-}
-
-.headerstuff {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px; 
-    padding: 50px; /* optional: adds spacing inside the container */
-    flex-wrap: wrap;
-  }
-
-
-.hello{
-    padding: 0;
-    text-align: right;
-    width: auto;
-    max-width: 300px;
-    margin: 0; /* top, right, bottom, left */
-}
-
-.aboutme{
-    width: 33.33%;           
-    margin: 0 auto;          
-    text-align: right;
-    padding-top: 0;
-    padding-right: 440px;
-}
-.aboutme p{
-    font-family: "pangolin";
+    @font-face {
+        font-family: "makes you stronger";
+        src: url("KGMakesYouStronger.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
     }
-.aboutme h2{
-    font-family: "makes you stronger";
-}
-.aboutme h3{
-    font-family: "makes you stronger";
-}
 
-.personal{
-    font-family: "pangolin";
-    padding: 0;
-    text-align: left;
-    width: auto;
-    max-width: 300px;
-    margin: 0; /* top, right, bottom, left */
-}
+    @font-face {
+        font-family: "pangolin";
+        src: url("Pangolin-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+    }
 
-.personal h3{
-    font-family: "makes you stronger";
-}
+    body{
+        background-color: #FDFBD4;
+        color: #06402B;
+    }
+
+
+    h1{
+        font-family: "makes you stronger";
+    }
+
+    p{
+        font-family: "pangolin";
+    }
+
+    .headerstuff {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px; 
+        padding: 50px; 
+        flex-wrap: wrap;
+    }
+
+
+    .hello{
+        padding: 0;
+        text-align: right;
+        width: auto;
+        max-width: 300px;
+        margin: 0; /* top, right, bottom, left */
+    }
+
+    .aboutme{
+        width: 33.33%;           
+        margin: 0 auto;          
+        text-align: right;
+        padding-top: 0;
+        padding-right: 440px;
+    }
+    .aboutme p{
+        font-family: "pangolin";
+        margin-top: 0;
+        }
+    .aboutme h2{
+        font-family: "makes you stronger";
+    }
+    .aboutme h3{
+        font-family: "makes you stronger";
+    }
+
+    .personal{
+        font-family: "pangolin";
+        padding: 0;
+        text-align: left;
+        width: auto;
+        max-width: 300px;
+        margin: 0; /* top, right, bottom, left */
+    }
+
+    .personal h3{
+        font-family: "makes you stronger";
+    }
+
+    a {
+        display: block;
+        color: #06402B;
+        text-decoration: none;
+    }
+
+    button {
+        color: #06402B;
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+        background-color: #D6B588;
+        margin: 10px;
+    }
+
+    .teaching {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 35px; 
+        padding: 50px; 
+        flex-wrap: wrap;
+    }
+
+    .header{
+        padding: 0;
+        text-align: right;
+        width: auto;
+        max-width: 300px;
+        margin: 0;
+    }
+
+    .writing{
+        font-family: "pangolin";
+        padding: 0;
+        text-align: left;
+        width: auto;
+        max-width: 300px;
+        margin: 0;
+    }
